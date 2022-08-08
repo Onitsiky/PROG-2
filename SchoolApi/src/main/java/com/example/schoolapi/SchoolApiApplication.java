@@ -1,13 +1,13 @@
-package com.example.imagechanging;
+package com.example.schoolapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ImageChangingApplication {
+public class SchoolApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(imageController.class, args);
+        SpringApplication.run(SchoolApiApplication.class, args);
     }
 
 }
