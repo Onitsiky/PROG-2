@@ -13,7 +13,6 @@ import javax.persistence.*;
 @ToString
 @EqualsAndHashCode
 @Entity
-@NamedQuery(name = "findAll", query = "SELECT i FROM Students i")
 public class Students {
     public Students(Long id, String name) {
         this.id = id;
